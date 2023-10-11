@@ -28,6 +28,18 @@ public class Country {
         this.neighbours = neighbours;
     }
 
+    public Country(String name, String capital, int population, int area, String continent, List<String> neighbours) {
+        this.name = name;
+        this.capital = capital;
+        this.population = population;
+        this.area = area;
+        this.continent = continent;
+        this.neighbours = neighbours;
+    }
+
+    public Country() {
+    }
+
     public int getId() {
         return id;
     }
